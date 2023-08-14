@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.loader-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.travel-list-items {
+  display: flex;
+  flex-direction: column;
+  width: 580px;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.travel-heading {
+  font-size: 28px;
+  color: #334155;
+  font-weight: 600;
+  font-family: 'Roboto';
+  padding: 8px;
+}
+
+.travel-heading-container {
+  text-decoration: underline;
+  text-decoration-color: #52bbf0;
+}
+
+.travel-guide-lists {
+  background-color: #eef4f7;
+}
+
+.travel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  padding: 8px 16px;
+}
+
+.travel-list-headings {
+  font-size: 25px;
+  color: #475569;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+.travel-list-description {
+  font-size: 20px;
+  color: #64748b;
+  font-family: 'Roboto';
+}
